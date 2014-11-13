@@ -1,4 +1,4 @@
-﻿namespace JoanVilarino.Demos.ExplicitInterfaceDemo
+﻿namespace JoanVilarino.Demos.ExplicitInterfaceDemo.Inheritance
 {
     public class ExplicitChildClass : ExplicitParentlass
     {

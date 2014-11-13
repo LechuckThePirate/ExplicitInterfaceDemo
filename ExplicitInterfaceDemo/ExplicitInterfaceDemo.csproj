@@ -41,13 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExplicitChildClass.cs" />
-    <Compile Include="ImplicitChildClass.cs" />
-    <Compile Include="ImplicitParentClass.cs" />
-    <Compile Include="ITest.cs" />
-    <Compile Include="ExplicitParentlass.cs" />
+    <Compile Include="Disambiguation\Episode.cs" />
+    <Compile Include="Disambiguation\IMovie.cs" />
+    <Compile Include="Disambiguation\ISerie.cs" />
+    <Compile Include="Disambiguation\Movie.cs" />
+    <Compile Include="Inheritance\ExplicitChildClass.cs" />
+    <Compile Include="Inheritance\ImplicitChildClass.cs" />
+    <Compile Include="Inheritance\ImplicitParentClass.cs" />
+    <Compile Include="Inheritance\ITest.cs" />
+    <Compile Include="Inheritance\ExplicitParentlass.cs" />
+    <Compile Include="Ocultation\MyFile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\DisambiguationTest.cs" />
+    <Compile Include="Tests\InheritanceTest.cs" />
+    <Compile Include="Tests\OcultationTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
